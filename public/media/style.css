@@ -1,0 +1,66 @@
+        body{
+            font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+        }
+        .hero1-section {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .hero1-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .content-1 {
+            position: relative;
+            z-index: 10;
+            background-color: white;
+            padding-top: 10vh;
+        }
+        .image {
+            position: relative;
+            display: inline-block;
+        }
+        .card-img-top {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(49, 49, 49, 0.171), rgba(49, 49, 49, 0.048));
+        }
+        .icon-love {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px;
+        }
+        .footer-bottom {
+            padding: 20px 0;
+            border-top: 1px solid #e5e5e5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-bottom .country-selector {
+            display: flex;
+            align-items: center;
+        }
+        .footer-bottom .country-selector svg {
+            margin-right: 10px;
+        }
